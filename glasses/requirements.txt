@@ -1,0 +1,7 @@
+# For the experimental glasses loop (eden_loop.py) only
+opencv-python
+numpy
+ollama
+sounddevice
+scipy
+faster-whisper

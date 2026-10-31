@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# YOUR PERSONAL DATA - never commit these
+Notebook/
+NotebookPhotos/
+recordings/
+handwriting/
+*.db
+*.sqlite
+
+# Large or private media
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

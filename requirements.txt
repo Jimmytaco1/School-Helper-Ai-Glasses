@@ -1,0 +1,10 @@
+# Everything the notebook needs. Install with:  pip install -r requirements.txt
+ollama
+watchdog
+pymupdf
+pillow
+faster-whisper
+python-docx
+youtube-transcript-api
+yt-dlp
+# The desktop window uses Tkinter, which comes with Python on Windows.

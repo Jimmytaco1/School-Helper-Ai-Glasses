@@ -1,0 +1,2 @@
+# Only for the optional browser version (start_notebook_web.bat)
+streamlit

@@ -1,0 +1,15 @@
+# Colours and fonts for the notebook window.
+# Change a value, save, then close and reopen the app (start_notebook.bat).
+# You can also try colours live: in the app, click the three dots (top right),
+# then Settings, then Theme.
+
+[theme]
+base = "dark"                          # "dark" or "light"
+primaryColor = "#4F8BF9"               # buttons and highlights
+backgroundColor = "#0E1117"            # main background
+secondaryBackgroundColor = "#262730"   # sidebar and boxes
+textColor = "#FAFAFA"
+font = "sans serif"                    # "sans serif", "serif" or "monospace"
+
+[browser]
+gatherUsageStats = false

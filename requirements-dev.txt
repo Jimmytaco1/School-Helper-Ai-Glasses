@@ -1,0 +1,8 @@
+# Only what the automated tests need. The model is replaced by a fake,
+# so Ollama, Whisper and a GPU are not required to run them.
+pytest
+pillow
+pymupdf
+watchdog
+python-docx
+streamlit

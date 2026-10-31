@@ -1,0 +1,70 @@
+MY NOTEBOOK - START HERE
+========================
+
+What it is
+----------
+A study notebook that runs on your own computer. You give it photos of your notes,
+PDFs, lecture videos or YouTube links. It reads them, files them by year, subject,
+term, week and day, checks your work, makes summaries, helps you revise, and can
+write practice tests as Word documents. Nothing is sent to the internet for the
+AI part, and there is no subscription.
+
+
+First time only
+---------------
+1. Install Python (python.org/downloads). During the install, TICK the box
+   "Add python.exe to PATH".
+2. Install Ollama (ollama.com) and leave it running (you will see its icon in the
+   system tray, bottom right of the screen).
+3. Open PowerShell in this folder. (In File Explorer, click the address bar, type
+   powershell, press Enter.) Then type these one at a time, pressing Enter after each:
+
+       ollama pull qwen2.5vl:3b
+       pip install -r requirements.txt
+       python notebook_hub.py setup all
+
+   The first one downloads the AI model (about 3 GB). The last one makes your folders.
+
+
+Every day
+---------
+Double-click  start_notebook.bat
+
+A window opens. A black console window also opens behind it: leave it alone (you can
+minimise it). While the notebook window is open, any file you put in your inbox
+folder is filed for you.
+
+Your inbox folder:    C:\Users\<you>\NotebookPhotos
+   Put photos in a subject folder inside it, for example  NotebookPhotos\physics
+Your filed notes:     C:\Users\<you>\Notebook      (please don't edit this by hand)
+
+
+In the window
+-------------
+Ask             Type a question in your own words. Spelling mistakes are fine.
+Add notes       Choose photos/PDFs, or paste a YouTube link.
+Tutor           A step-by-step tutor that uses your notes.
+Practice test   Writes questions from your notes as a Word document with answers.
+Review          Revise the things you found hard.
+Storage         See disk space; shrink or remove old photos.
+Help            Common fixes.
+
+Tip: write the date at the top of each page of notes, day first, like 21/10/2026
+or 21 Oct. That is how it knows which day to file the page under.
+
+
+If you already used an older version
+------------------------------------
+Your notes and database are safe: they live in C:\Users\<you>\Notebook and
+C:\Users\<you>\NotebookPhotos, not in this program folder.
+1. Close the notebook and anything else you started from it.
+2. Run this version from its new folder (double-click start_notebook.bat there).
+3. Open notebook_config.py in Notepad and check the folders and subjects at the top
+   are what you want. If you had changed anything in your old notebook_config.py,
+   copy those changes across.
+
+
+If something goes wrong
+-----------------------
+Open TROUBLESHOOTING.md (right-click, Open with, Notepad). Most problems are the
+AI program (Ollama) being closed or short of memory.
